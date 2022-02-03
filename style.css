@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+:root {
+    --card-color: #182d46;
+    --body-color: #0d1a2d;
+}
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    height: 100vh;
+    background-color: var(--body-color);
+}
+.card {
+    background-color: var(--card-color);
+    width: 300px;
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.card img {
+    border-radius: 8px;
+}
+.card .text h1 {
+    font-size: 18px;
+    color: #fff;
+    margin: 15px 0;
+    font-weight: 400;
+}
+.card .text p {
+    color: rgb(255 255 255 / 51%);
+    font-weight: 300;
+}
+.card .info {
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.card .info h3 {
+    margin-left: 8px;
+    font-size: 15px;
+}
+.card .info .left-icon h3 {
+    color: #7efcf9;
+}
+.card .info .right-icon h3 {
+    color: #8bacd9;
+    font-weight: 300;
+}
+/* profile */
+.card .box {
+    justify-content: flex-start;
+}
+.card .box {
+    border-top: 1px solid #ffffff1f;
+    padding-top: 15px;
+}
+.card .box h3 {
+    color: rgb(255 255 255 / 51%);
+    font-size: 14px;
+    font-weight: 400;
+}
+.card .box span {
+    color: rgba(255, 255, 255, 0.815);
+}
+.card .box img {
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+/* Made by Mr.Robot */
